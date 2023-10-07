@@ -1,0 +1,22 @@
+kp-index columns
+Year, Month Day - self-explenatory
+Days since 01.01.1932 - indeks zaczęto mierzyć początku 1932, więc jako integrer mamy ilość dni od tego okresu. do wyboru ilości dni od północy i od południa 01.01.1932
+
+BSR - bartels solar rotation number - ile razy słońce się obrócilo dookoła od 1832
+days of BSR - który jest dzień nowego obrotu słońca
+
+Kp1-..Kp8 pomiar Kp-index w ciągu dnia co trzy godziny. K1 o 0:00, K2 o 3:00 etc
+
+ap1-..ap8 liniowa funkcja Kp - Kp jest z natury logarytmiczne, więc na podstawie tresholdów kp przypisuje się ap, które jest miarą tego samego, ale liniowo
+
+AP-mean średnia ap
+
+SN - international sunspot number - liczba plam na słońcu (ma związek z tym ile słońce bedzie wywalać materii)
+
+F10.7obs - zmierzony solar flux
+F10.7adj - zmierzony solar flux dopasowany do odległości slońca od ziemi; widizmy większy solar fluz ale w rzeczywistosci jest mniejszy
+
+D - wskazuje czy pomiary są potwierdzone przez wielu naukowców czy jeszcze nie 
+D=2 Kp i SN są pomiarem ostatecznym
+D=1 Kp jest pomiarem ostatecznym, SN nie
+D=0 Kp i SN nie są pomiarami ostatecznymi (były zro bione niedawno)
